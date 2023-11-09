@@ -9,6 +9,7 @@ import React  from 'react';
 
 const NavLinks = ({isBigSidebar}) => {
     const {toggleSideBar,user}=useContext(DashBoardContext);
+    console.log("user role",user);
   return (
     <div>
           <div className="nav-links">
